@@ -1,0 +1,12 @@
+* inside project folder *
+create conda environment
+    conda create --prefix ./env pandas numpy matplotlib scikit-learn
+
+* to activate conda environment *
+ conda activate filepath\env
+
+* to deactivate conda environment *
+conda deactivate
+
+* to install single package inside active conda env *
+conda install {package}
